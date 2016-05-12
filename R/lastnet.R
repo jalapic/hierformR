@@ -9,7 +9,6 @@
 #' )
 #' lastnet(df)
 #' @export
-#'
 
 lastnet<-function(df){
 

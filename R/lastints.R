@@ -9,7 +9,6 @@
 #' )
 #' lastints(df)
 #' @export
-#'
 
 lastints<-function(df){
   xx<- lapply(1:nrow(df), function(i) df[1:i,][!duplicated(df[1:i,], fromLast=T),])
