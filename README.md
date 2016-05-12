@@ -19,7 +19,7 @@ library(hierformR)
 ### Quick Example
 
 
-1. Example dataframe of winners and losers:
+ Example dataframe of winners and losers:
 
 ```
 df<-data.frame(winner=c(1,2,3,1,2,3,2,1,2,3,3,1,2,3,4,3,1,3,2,1,1,1,1,2,2),
@@ -56,13 +56,13 @@ loser=c(2,4,4,4,3,2,1,3,3,4,4,2,3,2,3,4,2,4,3,3,3,2,2,4,3)
 ```
 
 
-2. For each row, get last interaction between each pair of nodes - return a list of same length as df
+ For each row, get last interaction between each pair of nodes - return a list of same length as df
 
 ```
 lastints(df)
 ```
 
-3. Get directed network object based on most recent interactions between each pair of nodes
+ Get directed network object based on most recent interactions between each pair of nodes
 
 ```
 lastnet(df)
