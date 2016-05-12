@@ -1,6 +1,8 @@
 # hierformR
 Hierarchy Network Formation
 
+Authors -   James P. Curley (Columbia University) & Ivan D. Chase (Stony Brook University)
+
 R Code for analyzing social hierarchy and network formation.  Based upon algorithms described in Lindquist & Chase, 2009, Bulletin of Mathematical Biology
 - "Data-Based Analysis of Winner-Loser Models of Hierarchy Formation in Animals" -
 
