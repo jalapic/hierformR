@@ -68,7 +68,7 @@ lastints(df)
 lastnet(df)
 ```
 
-4. Return the characteristics of the network relevant for determining its current state
+ Return the characteristics of the network relevant for determining its current state
 
 ```
 gs <- lastnetdf
