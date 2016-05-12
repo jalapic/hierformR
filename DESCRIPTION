@@ -1,0 +1,20 @@
+Package: hierformR
+Type: Package
+Title: Analysis of dynamics hierarchy formation
+Version: 0.1.0
+Authors@R: as.person(c(
+    "James P Curley <jc3181@columbia.edu> [aut, cre]",
+    "Ivan D Chase <ivan.chase@stonybrook.edu> [aut]"
+  ))
+Maintainer: James Curley <jc3181@columbia.edu>
+Description: Determine paths and states that social networks develop over time
+    to form social hierarchies. Based upon algorithms described in
+    W. Brent Lindquist & Ivan D. Chase, "Data-based analysis of Winner-Loser Models
+    of Hierarchy Formation in Animals", Bulletin of Mathematical Biology,71:556-584,
+    2009.
+Depends: R (>= 3.1.0)
+Imports:
+    igraph
+License: GPL-3
+LazyData: TRUE
+RoxygenNote: 5.0.1
