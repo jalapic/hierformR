@@ -73,10 +73,51 @@ lastnet(df)
  Return the characteristics of the network relevant for determining its current state
 
 ```
-gs <- lastnetdf
+gs <- lastnet(df)
 g <- gs[[25]]
 get_statespace(g)
 ```
+  X003 X012 X021D X021U X021C X030T X030C maxdom noedges nonodes distance degreediff
+     0    0     0     0     0     3     1      2       6       4 1.333333          1
+
+
+ 
+ 
+The most useful function is `addstates`.  This will take any winner-loser dataframe and add the id and class of the states:
+
+```
+addstates(df)
+```
+
+   winner loser id class
+1       1     2  1     1
+2       2     4  3     L
+3       3     4 13     C
+4       1     4 22    Ht
+5       2     3 32    Ft
+6       3     2 33    Ft
+7       2     1 32    Ft
+8       1     3 40    Si
+9       2     3 38    St
+10      3     4 38    St
+11      3     4 38    St
+12      1     2 38    St
+13      2     3 38    St
+14      3     2 38    St
+15      4     3 39    Si
+16      3     4 38    St
+17      1     2 38    St
+18      3     4 38    St
+19      2     3 38    St
+20      1     3 38    St
+21      1     3 38    St
+22      1     2 38    St
+23      1     2 38    St
+24      2     4 38    St
+25      2     3 38    St
+
+
+
 
 
 More  functions coming soon.
