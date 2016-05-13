@@ -75,7 +75,7 @@ lastnet(df)
 ```
 gs <- lastnet(df)
 g <- gs[[25]]
-get_statespace(g)
+netchar(g)
 
   X003 X012 X021D X021U X021C X030T X030C maxdom noedges nonodes distance degreediff
      0    0     0     0     0     4     0      3       6       4        1          3
