@@ -9,6 +9,9 @@
 
 
 get_statespace <- function(g){
+
+  g<-delete_isolates(g)
+
   dd<-cbind(
     do.call('rbind',list(igraph::triad.census(g))),
     maxdom = max(table(igraph::head_of(g,es=1:length(igraph::E(g))))),
@@ -18,9 +21,15 @@ get_statespace <- function(g){
     degreediff = max(igraph::degree(g,mode="out")-igraph::degree(g,mode="in"))
   )
 
-  colnames(dd)[1:16]<-c("X003","X012","X102","X021D","X021U","X021C","X111D","X111U",
-                                "X030T","X030C","X201","X120D","X120U","X120C","X210","X300")
+
+  dd=as.data.frame(dd)
 
   dd=dd[c(1,2,4:6,9:10,17:21)]
-  return(dd)
+
+  colnames(dd)<-c("X003","X012","X021D","X021U","X021C",
+                        "X030T","X030C","maxdom", "noedges",
+                        "nonodes","distance","degreediff"
+  )
+
+    return(dd)
 }
