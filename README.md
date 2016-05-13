@@ -86,7 +86,7 @@ netchar(g)
 
  
  
-The most useful function is `addstates`.  This will take any winner-loser dataframe and add the id and class of the states:
+The most useful function is `addstates`.  This will take any winner-loser dataframe and add the id and class of the states. Note - whilst the functions above work for directed networks of any size, this function is specifically for networks with four nodes:
 
 ```
 addstates(df)
