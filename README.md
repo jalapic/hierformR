@@ -87,7 +87,6 @@ The most useful function is `addstates`.  This will take any winner-loser datafr
 
 ```
 addstates(df)
-```
 
    winner loser id class
 1       1     2  1     1
@@ -115,6 +114,7 @@ addstates(df)
 23      1     2 38    St
 24      2     4 38    St
 25      2     3 38    St
+```
 
 
 
