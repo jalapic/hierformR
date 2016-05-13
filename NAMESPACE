@@ -2,9 +2,9 @@
 
 export(addstates)
 export(delete_isolates)
-export(get_statespace)
 export(lastints)
 export(lastnet)
+export(netchar)
 export(rowmatch)
 export(stateclass)
 export(stateid)

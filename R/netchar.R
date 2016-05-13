@@ -1,14 +1,14 @@
-#' Get statespace characteristics of a directed graph
+#' Get characteristics of a directed graph
 #'
 #' @param g a unweighted directed igraph object.
 #' @return a single row dataframe with characteristics of the graph
 #' @examples
 #' g=igraph::graph.edgelist(cbind(a=c(1,2,3,3), b=c(4,1,1,2)),directed=TRUE)
-#' get_statespace(g)
+#' netchar(g)
 #' @export
 
 
-get_statespace <- function(g){
+netchar <- function(g){
 
   g<-delete_isolates(g)
 

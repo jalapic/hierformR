@@ -11,7 +11,7 @@
 
 addstates <- function(df){
   v<-lastnet(df)
-  v1<-lapply(v, get_statespace)
+  v1<-lapply(v, netchar)
   df$id<-unlist(lapply(v1, stateid))
   df$class<-unlist(lapply(v1, stateclass))
   return(df)

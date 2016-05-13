@@ -4,7 +4,7 @@
 #' @return the state class corresponding to the network characteristics
 #' @examples
 #' g=igraph::graph.edgelist(cbind(a=c(1,2,3,3), b=c(4,1,1,2)),directed=TRUE)
-#' gs=get_statespace(g)
+#' gs=netchar(g)
 #' stateclass(gs)
 #' @export
 
