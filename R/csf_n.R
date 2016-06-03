@@ -4,6 +4,7 @@
 #' id and class
 #' @param links the number of links to determine the CSF for
 #' @return a named vector of state ids with the CSF for defined number of links
+#' @importFrom utils "data"
 #' @examples
 #' csf_n(addstates(wldf()),links=6)
 #' @export

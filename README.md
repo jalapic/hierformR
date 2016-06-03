@@ -122,7 +122,4 @@ addstates(df)
 
 
 
-
-More  functions coming soon.
-
 Contact me at:   jc3181 AT columbia DOT edu
