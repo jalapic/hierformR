@@ -9,12 +9,11 @@ Authors@R: c(person("James P.", "Curley", role = c("aut", "cre"),
 Maintainer: James P. Curley <jc3181@columbia.edu>
 Description: Determine paths and states that social networks develop over
     time to form social hierarchies. Based upon algorithms described in
-    W. Brent Lindquist & Ivan D. Chase (2009) <DOI:10.1007/s11538-008-9371-9>
+    W. Brent Lindquist & Ivan D. Chase (2009) <DOI:10.1007/s11538-008-9371-9>.
 Depends:
     R (>= 3.1.0)
 Imports:
     igraph,
-    stats,
     utils
 License: GPL-3
 LazyData: TRUE
