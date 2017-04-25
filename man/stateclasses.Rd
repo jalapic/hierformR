@@ -12,4 +12,3 @@ stateclasses
 Vector defining the classes of 41 network states
 }
 \keyword{datasets}
-

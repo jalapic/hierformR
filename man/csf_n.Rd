@@ -21,4 +21,3 @@ Determine class-stability factor (CSF) for specific number of links
 \examples{
 csf_n(addstates(wldf()),links=6)
 }
-

@@ -33,4 +33,3 @@ and the maximum difference between out-degree and in-degrees,
 in a four node network. Also gives the class of each state.
 }
 \keyword{datasets}
-

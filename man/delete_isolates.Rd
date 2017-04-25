@@ -19,4 +19,3 @@ Delete isolated nodes from network
 g=igraph::graph.edgelist(cbind(a=c(1,2,3,4), b=c(3,1,1,4)),directed=TRUE)
 delete_isolates(g)
 }
-

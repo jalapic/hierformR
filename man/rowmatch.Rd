@@ -24,4 +24,3 @@ v1 <- data.frame(A=c(1,2,3),B=c(2,3,3),C=c(3,3,2),D=c(1,1,1))
 v2 <- data.frame(A=3,B=3,C=2,D=1)
 rowmatch(v1,v2,nomatch=NA)
 }
-

@@ -19,4 +19,3 @@ Get characteristics of a directed graph
 g=igraph::graph.edgelist(cbind(a=c(1,2,3,3), b=c(4,1,1,2)),directed=TRUE)
 netchar(g)
 }
-
