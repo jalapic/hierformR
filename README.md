@@ -9,10 +9,14 @@ R Code for analyzing social hierarchy and network formation.  Based upon algorit
 http://link.springer.com/article/10.1007%2Fs11538-008-9371-9
 
 
+### Versions
+Version 0.1.0 is available on CRAN
+Version 0.1.1 is the up-to-date version with added functions available on GitHub from April 2017.
+
 ### Installation
 ```
 library(devtools)
-devtools::install_github("jalapic/hierformR")
+devtools::install_github("jalapic/hierformR")  #version 0.1.1
 
 library(hierformR)
 ```
