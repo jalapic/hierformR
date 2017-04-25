@@ -1,7 +1,7 @@
 Package: hierformR
 Type: Package
 Title: Analysis of Dynamics Hierarchy Formation
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: c(person("James P.", "Curley", role = c("aut", "cre"),
 		     email = "jc3181@columbia.edu"),
 	      person("Ivan D.", "Chase", role = "aut",
