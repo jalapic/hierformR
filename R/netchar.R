@@ -10,11 +10,19 @@
 
 netchar <- function(g){
 
+  ## This is to work around an igraph 1.0.1 (and before) bug
+    if (packageVersion("igraph") <= "1.0.1") {
+        my_tail_of <- igraph::head_of
+      } else {
+          my_tail_of <- igraph::tail_of
+        }
+
+
   g<-delete_isolates(g)
 
   dd<-cbind(
     do.call('rbind',list(igraph::triad.census(g))),
-    maxdom = max(table(igraph::head_of(g,es=1:length(igraph::E(g))))),
+    maxdom = max(table(my_tail_of(g,es=1:length(igraph::E(g))))),
     noedges = length(igraph::E(g)),
     nonodes = length(igraph::V(g)),
     distance = igraph::mean_distance(g),
